@@ -1,8 +1,8 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from './header/header';
-import { Footer } from './footer/footer';
-import { TransactionList } from './transaction-list/transaction-list';
+import { Header } from './Components/header/header';
+import { Footer } from './Components/footer/footer';
+import { TransactionList } from './Components/transaction-list/transaction-list';
 
 @Component({
   selector: 'app-root',

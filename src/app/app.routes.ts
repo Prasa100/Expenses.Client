@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { Login } from './login/login';
-import { Signup } from './signup/signup';
-import { TransactionList } from './transaction-list/transaction-list';
-import { TransactionForm } from './transaction-form/transaction-form';
+import { Login } from './Components/login/login';
+import { Signup } from './Components/signup/signup';
+import { TransactionList } from './Components/transaction-list/transaction-list';
+import { TransactionForm } from './Components/transaction-form/transaction-form';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'transactions', pathMatch: 'full' },
